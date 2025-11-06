@@ -13,7 +13,7 @@ private Usuario user;
 
 
 
-    public void autenticar(){
+    public void autenticar(Usuario user){
         autenticador.autenticarUsuario(user);
     }
 

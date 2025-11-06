@@ -26,10 +26,14 @@ public class Main {
 
 
         GestorAutenticador gestor = new GestorAutenticador(Local);
+        GestorAutenticador gestor2 = new GestorAutenticador(ZeroAuth);
 
-        Local.autenticarUsuario(u1);
+        gestor.autenticar(u1);
+        gestor2.autenticar(u1);
 
-        ZeroAuth.autenticarUsuario(u1);
+
+
+
 
 
         // Ejercicio 2, Sistema de Almacenamiento de Archivos
